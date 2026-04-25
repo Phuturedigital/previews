@@ -1,0 +1,6 @@
+{
+  "name": "phuture-previews",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel proxy that serves Phuture Digital mockup previews from Supabase Storage."
+}
