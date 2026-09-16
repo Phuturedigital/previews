@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/with-safety-network",
+      "destination": "/api/with-safety-network"
+    },
+    {
       "source": "/((?!api/|_next/|favicon.ico).*)",
       "destination": "/api/mockup?slug=$1"
     }
