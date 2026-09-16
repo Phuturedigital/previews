@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/with-app",
+      "destination": "/api/with-app"
+    },
+    {
       "source": "/with-safety-network",
       "destination": "/api/with-safety-network?page=home"
     },
