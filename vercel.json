@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/with-safety-network",
-      "destination": "/api/with-safety-network"
+      "destination": "/api/with-safety-network?page=home"
+    },
+    {
+      "source": "/with-safety-network/:page",
+      "destination": "/api/with-safety-network?page=:page"
     },
     {
       "source": "/((?!api/|_next/|favicon.ico).*)",
